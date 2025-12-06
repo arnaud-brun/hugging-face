@@ -1,5 +1,12 @@
 # Onbaording
 
+## To read later
+
+ - [Free NLP course](https://huggingface.co/learn/llm-course/chapter1/1)
+ - [chat_templating](https://huggingface.co/docs/transformers/main/en/chat_templating)
+ - [Transformers](https://huggingface.co/docs/transformers/index)
+
+
 ## Setup
 
 
