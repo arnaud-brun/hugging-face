@@ -5,8 +5,6 @@ from huggingface_hub import InferenceClient
 # export HF_TOKEN=$(cat .token)
 HF_TOKEN = os.environ.get("HF_TOKEN")
 
-print(HF_TOKEN)
-
 client = InferenceClient(model="meta-llama/Llama-4-Scout-17B-16E-Instruct")
 
 output = client.chat.completions.create(
@@ -15,6 +13,7 @@ output = client.chat.completions.create(
     ],
     stream=False,
     max_tokens=20,
+    
 )
 print(output.choices[0].message.content)
 exit
