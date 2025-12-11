@@ -2,9 +2,28 @@
 
 ## To read later
 
+
+## HuggingFace
  - [Free NLP course](https://huggingface.co/learn/llm-course/chapter1/1)
- - [chat_templating](https://huggingface.co/docs/transformers/main/en/chat_templating)
  - [Transformers](https://huggingface.co/docs/transformers/index)
+ - [chat_templating](https://huggingface.co/docs/transformers/main/en/chat_templating)
+ - [Models timeline](https://huggingface.co/docs/transformers/models_timeline)
+ - [SmolAgents](https://huggingface.co/docs/smolagents)
+ - [Secure Code Execution](https://huggingface.co/docs/smolagents/tutorials/secure_code_execution)
+ - [Agent guidelines](https://huggingface.co/docs/smolagents/tutorials/building_good_agents)
+ - [Building effective agent](https://www.anthropic.com/research/building-effective-agents)
+
+### Ecosystem
+ - [LangGraph](https://langchain-ai.github.io/langgraph/)
+ - [Retrieval Augmented Generation (RAG)](https://www.pinecone.io/learn/retrieval-augmented-generation/)
+
+### Misc
+ - [Pipfile - What is the perfect 'requirements.txt' file ?]
+
+
+
+
+
 
 
 ## Setup
