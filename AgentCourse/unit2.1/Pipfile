@@ -5,12 +5,12 @@ name = "pypi"
 
 [packages]
 huggingface-hub = "*"
-smolagents = "*"
 ddgs = "*"
 opentelemetry-sdk = "*"
 opentelemetry-exporter-otlp = "*"
 openinference-instrumentation-smolagents = "*"
 langfuse = "*"
+smolagents = {extras = ["litellm"], version = "*"}
 
 [dev-packages]
 
