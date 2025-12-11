@@ -23,3 +23,4 @@ login(token=HF_TOKEN)
 # Change to your username and repo name
 alfred_agent = CodeAgent.from_hub('ArnaudBrun/AlfredAgent', trust_remote_code=True)
 alfred_agent.run("Give me the best playlist for a party at Wayne's mansion. The party idea is a 'villain masquerade' theme")  
+alfred_agent.run("Give me the best playlist for a party at Wayne's mansion. The party idea is a 'villain masquerade' theme")  
