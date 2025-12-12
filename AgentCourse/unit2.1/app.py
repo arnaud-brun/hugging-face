@@ -3,11 +3,7 @@ import datetime
 import os
 import time
 from huggingface_hub import login
-from smolagents import CodeAgent, DuckDuckGoSearchTool, InferenceClientModel, tool
-from langfuse import get_client
-from openinference.instrumentation.smolagents import SmolagentsInstrumentor
-
- 
+from smolagents import CodeAgent, DuckDuckGoSearchTool, InferenceClientModel, tool, ToolCallingAgent, WebSearchTool
 
 
 # Tool to suggest a menu based on the occasion
@@ -62,4 +58,15 @@ agent = CodeAgent(
 # )
 
 # Change to your username and repo name
-agent.push_to_hub('ArnaudBrun/AlfredAgent')
+# agent.push_to_hub('ArnaudBrun/AlfredAgent')
+
+for query in [
+    "Best catering services in Gotham City", 
+    "Party theme ideas for superheroes"
+]:
+    print(web_search(f"Search for: {query}"))
+
+agent = ToolCallingAgent(tools=[WebSearchTool()], model=InferenceClientModel())
+
+
+agent.run("Search for the best music recommendations for a party at the Wayne's mansion.")

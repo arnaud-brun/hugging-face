@@ -12,6 +12,8 @@
  - [Secure Code Execution](https://huggingface.co/docs/smolagents/tutorials/secure_code_execution)
  - [Agent guidelines](https://huggingface.co/docs/smolagents/tutorials/building_good_agents)
  - [Building effective agent](https://www.anthropic.com/research/building-effective-agents)
+ - [MCP](https://huggingface.co/learn/mcp-course/unit1/architectural-components)
+ 
 
 ### Ecosystem
  - [LangGraph](https://langchain-ai.github.io/langgraph/)
