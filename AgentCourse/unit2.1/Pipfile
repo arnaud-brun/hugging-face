@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+huggingface-hub = "*"
+ddgs = "*"
+opentelemetry-sdk = "*"
+opentelemetry-exporter-otlp = "*"
+openinference-instrumentation-smolagents = "*"
+langfuse = "*"
+smolagents = {extras = ["litellm"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+agent = "pipenv run python app.py"
+load = "pipenv run python load.py"
+monitor = "pipenv run python monitor.py"
+image = "pipenv run python image.py"
